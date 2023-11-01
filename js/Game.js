@@ -17,4 +17,8 @@ class Game {
         return players;
      
     }
+
+    startGame () {
+        
+    }
 }
