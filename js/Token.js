@@ -10,10 +10,10 @@ class Token {
         document.getElementById("game-board-underlay").appendChild(token);
         token.setAttribute("id", this.id);
         token.setAttribute("class", "token");
-        token.style.backgroundcolor = this.owner.color;
+        token.style.backgroundColor = this.owner.color;
     }
 
     get htmlToken () {
-        return 
+        return document.getElementById(this.id)
     }
 }
