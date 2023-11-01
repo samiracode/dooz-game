@@ -23,10 +23,12 @@ class Board {
         }
         return spaces;
     }
-
+    // Draws associated SVG spaces for all game spaces
     drawHTMLBoard() {
-        for(let i = 0; i < this.spaces; i++) {
-            this.spaces[i].drawSVGSpace()
+        for(let column of this.spaces) {
+            for (let space of column){
+                space.drawSVGSpace();
+            }
         }
     }
 
