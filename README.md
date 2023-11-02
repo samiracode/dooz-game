@@ -9,4 +9,5 @@ The Vanilla JavaScript, CSS and some animation effect from jQuery. That's it!
 In future I would love to add a table of scores for every player and use the localStorage for collecting the scores.  
 
 ## How to play the game?  
-Please click on the link (https://samiracode.github.io/dooz-game/) and enjoy the game. If you liked it so far, it will be nice to give this repo a star. 
+Please click on the link (https://samiracode.github.io/dooz-game/) and load the game. Use the left or right arrow key for moving player's token horizontally and the down arrow key to drop a token.  
+If you liked it so far, it will be nice to give this repo a star. Thanks!
