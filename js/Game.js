@@ -135,12 +135,24 @@ class Game {
         }
 
         return win;
-  
-  
     }
 
 
+    // Switches active player
+    switchPlayer () {
+        for (let player of this.players) {
+          player.active = player.active === true ? false : true;
+        }
+    }
 
+    /** 
+    * Displays game over message.
+    * @param {string} message - Game over message.      
+    */
+    gameOver (message) {
+        document.getElementById('game-over').style.display = 'block';
+        document.getElementById('game-over').textContent = message;
+    }
     
 
 
