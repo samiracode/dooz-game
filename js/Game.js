@@ -187,6 +187,7 @@ class Game {
     gameOver(message) {
 		document.getElementById('game-over').style.display = 'block';
         document.getElementById('game-over').textContent = message;
+        document.getElementById('restart').style.display = 'block';
     }
 
 
